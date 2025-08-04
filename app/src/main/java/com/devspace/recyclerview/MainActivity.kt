@@ -38,10 +38,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         ivList.setOnClickListener {
-            rvList.layoutManager = LinearLayoutManager(this)
-        }
+            rvList.layoutManager = LinearLayoutManager(this) }
+
 
         adapter.setOnClickListener { contact ->
+            Log.d("Maria", contact.toString())
             val intent = Intent(this,ContactDetailActivity::class.java)
             intent.putExtra("name", contact.name)
             intent.putExtra("phone", contact.phone)

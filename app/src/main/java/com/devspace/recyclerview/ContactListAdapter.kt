@@ -35,18 +35,21 @@ class ContactListAdapter:
 
 
     // view holder = view que segura os dados
-    class ContactViewHolder(private val view: View,) : RecyclerView.ViewHolder(view){
+    class ContactViewHolder(private val view: View) : RecyclerView.ViewHolder(view){
         private val tvName  = view.findViewById<TextView>(R.id.tv_name)
         private val tvPhone = view.findViewById<TextView>(R.id.tv_phone)
         private val image   = view.findViewById<ImageView>(R.id.image)
 
-        fun bind(contact: Contact,onClick: (Contact) -> Unit){
+        fun bind(contact: Contact,onClick: (Contact) -> Unit) {
             tvName.text  = contact.name
             tvPhone.text = contact.phone
             image.setImageResource(contact.icon)
 
-            view.setOnClickListener {  }
-            onClick.invoke(contact)
+            view.setOnClickListener {
+                onClick.invoke(contact)
+            }
+
+
         }
 
     }
