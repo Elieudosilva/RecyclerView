@@ -2,9 +2,9 @@
 Esse aplicativo foi desenvolvido para praticar desenvolvimento de listas em desenvolvimento Android com recyclerview.
 
 ## Screenshots
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/cdb4fc56-808d-482f-ad11-554a4bbddf91" width="260"/>
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/2badea79-241c-45ac-9a24-ed172730ce18" width="260"/>
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/53ec9ef5-629f-42a2-8288-964059d9d4b7" width="260"/>
+<img src = "https://github.com/user-attachments/assets/a17feec5-7514-41d9-a30d-dbe3a638bd7d" width="180"/>
+<img src = "https://github.com/user-attachments/assets/ab55e894-bd9f-42e2-afe9-431abf49c33a" width="190"/>
+<img src = "https://github.com/user-attachments/assets/d9c53563-0169-48cd-ab69-1e9d3186045f" width="163"/>
 
 ## Techs
 - Kotlin
