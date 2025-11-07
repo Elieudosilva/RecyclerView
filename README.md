@@ -1,16 +1,36 @@
-## Sobre
-Esse aplicativo foi desenvolvido para praticar desenvolvimento de listas em desenvolvimento Android com recyclerview.
+## 📱 LISTCONTACTS
 
-## Screenshots
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/cdb4fc56-808d-482f-ad11-554a4bbddf91" width="260"/>
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/2badea79-241c-45ac-9a24-ed172730ce18" width="260"/>
-<img src = "https://github.com/roquebuarquejr/Recyclerview/assets/11612508/53ec9ef5-629f-42a2-8288-964059d9d4b7" width="260"/>
+O ListContacts é um aplicativo Android desenvolvido com o objetivo de demonstrar a passagem de dados entre telas utilizando o componente RecyclerView.
+O projeto tem foco no aprendizado de listas dinâmicas, adaptação de layouts e integração entre activities no Android.
 
-## Techs
-- Kotlin
-- ConstraintLayout
-- Recyclerview
-- ListAdapter
-- Layout Manager: Grid and Linear
-- DiffUtils
-- Explicit intent
+## APLICATIVO
+<img src = https://github.com/user-attachments/assets/fa13d92a-6a93-499b-a618-4c287fd03430 width="400"/>
+
+## 🚀 FUNCIONALIDADES
+
+- Exibição de uma lista de contatos.
+
+- Navegação entre telas com Explicit Intent.
+
+- Passagem de dados entre activities.
+
+- Suporte a diferentes layouts: Grid e Linear.
+
+- Atualização eficiente de listas com DiffUtil e ListAdapter.
+
+
+## 🛠️ TECNOLOGIAS UTILIZADAS
+
+- Linguagem: Kotlin
+
+- Interface: XML
+
+- Layout Base: ConstraintLayout
+
+- Componente de Lista: RecyclerView
+
+- Gerenciadores de Layout: LinearLayoutManager e GridLayoutManager
+
+- Ferramentas de atualização de lista: DiffUtil e ListAdapter
+
+- Navegação entre telas: Explicit Intent
